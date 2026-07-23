@@ -194,16 +194,7 @@ fun SignUpScreen(){
 
             Spacer(modifier = Modifier.height(10.dp))
 
-            Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center) {
-                Text(text = "Already have an Account?",
-                    color = Color.Black,
-                    fontSize = 15.sp)
-                Spacer(modifier = Modifier.width(10.dp))
-                Text(text = "Log in",
-                    color = Color.Black,
-                    fontSize = 15.sp,
-                    fontWeight = FontWeight.SemiBold)
-            }
+       
 
         }
     }
