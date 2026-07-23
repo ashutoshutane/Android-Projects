@@ -1,0 +1,13 @@
+package com.definelab.objectorientedprogramming.abstract
+
+fun main(args: Array<String>) {
+//    var vehicle = Vehicle()
+
+    var car =  Car(2022)
+    car.speed = 300
+
+    println("Name : ${car.vehicle("Ferrari")} \n" +
+            "Type : ${car.vehicleType("Car")} \n" +
+            "Model : ${car.model} \n" +
+            "Speed : ${car.speed}")
+}

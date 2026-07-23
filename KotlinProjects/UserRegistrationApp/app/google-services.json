@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "331690068165",
+    "project_id": "userregistrationapp-61db2",
+    "storage_bucket": "userregistrationapp-61db2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331690068165:android:ce9c2f04cec61028a908ac",
+        "android_client_info": {
+          "package_name": "com.definelab.userregistrationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGUzZzy_TmB4u9HPY-5utSznFAttdEfaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

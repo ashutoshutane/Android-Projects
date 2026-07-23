@@ -1,0 +1,14 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.movieappl.ui.fragment.HomeFragment" />
+
+    <fragment
+        android:id="@+id/savedFragment"
+        android:name="com.example.movieappl.ui.fragment.SavedFragment" />
+
+</navigation>

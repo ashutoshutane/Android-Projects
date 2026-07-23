@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movie Appl</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+</resources>

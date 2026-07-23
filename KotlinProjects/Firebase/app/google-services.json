@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "19440247271",
+    "firebase_url": "https://examplekotlin-7e136-default-rtdb.firebaseio.com",
+    "project_id": "examplekotlin-7e136",
+    "storage_bucket": "examplekotlin-7e136.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19440247271:android:5ec238eac652f25e741d42",
+        "android_client_info": {
+          "package_name": "com.definelab.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiTE-d8LgPkdvwMbJLwKVdkuCGCZOMMs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
