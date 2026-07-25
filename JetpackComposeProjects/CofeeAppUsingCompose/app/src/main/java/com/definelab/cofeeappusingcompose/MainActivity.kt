@@ -20,12 +20,12 @@ class MainActivity : ComponentActivity() {
 
 
 //                LoginScreen()
-//                            NavGraph()
+                            NavGraph()
 //                CartScreen()
 //                WelcomeScreen()
 //                HomeScreen()
 //                DetailsScreen()
-                SignUpScreen()
+//                SignUpScreen()
             }
         }
     }

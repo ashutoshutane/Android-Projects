@@ -12,6 +12,7 @@ import com.definelab.cofeeappusingcompose.presentation.screen.favouriteScreen.Fa
 import com.definelab.cofeeappusingcompose.presentation.screen.homescreens.HomeScreen
 import com.definelab.cofeeappusingcompose.presentation.screen.loginScreen.LoginScreen
 import com.definelab.cofeeappusingcompose.presentation.screen.profileScreen.ProfileScreen
+import com.definelab.cofeeappusingcompose.presentation.screen.signUpScreen.SignUpScreen
 import com.definelab.cofeeappusingcompose.presentation.screen.welcomeScreen.WelcomeScreen
 
 @Composable
@@ -48,7 +49,11 @@ fun NavGraph(){
         }
 
         composable <Routes.LoginScreen>{
-            LoginScreen()
+            LoginScreen(navController)
+        }
+
+        composable <Routes.SignUpScreen>{
+            SignUpScreen(navController)
         }
     }
 }

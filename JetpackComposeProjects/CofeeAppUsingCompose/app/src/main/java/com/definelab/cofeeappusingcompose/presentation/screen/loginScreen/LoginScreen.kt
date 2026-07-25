@@ -36,14 +36,15 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.definelab.cofeeappusingcompose.R
 import com.definelab.cofeeappusingcompose.presentation.ui.theme.CoffeeBrown
 import com.definelab.cofeeappusingcompose.presentation.ui.theme.Typography
 
 
-@Preview
+//@Preview
 @Composable
-fun LoginScreen() {
+fun LoginScreen(navController: NavController) {
 
     var Email by remember { mutableStateOf("") }
     var Password by remember { mutableStateOf("") }

@@ -35,18 +35,21 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavController
 import com.definelab.cofeeappusingcompose.R
 import com.definelab.cofeeappusingcompose.presentation.ui.theme.CoffeeBrown
 import com.definelab.cofeeappusingcompose.presentation.ui.theme.Typography
 
 @Composable
-@Preview
-fun SignUpScreen(){
+//@Preview
+fun SignUpScreen(navController: NavController){
     var Email by remember { mutableStateOf("") }
     var confPassword by remember { mutableStateOf("") }
     var isChecked by remember { mutableStateOf(false) }
     var Password by remember { mutableStateOf("") }
-    Scaffold() {innerPadding->
+    Scaffold(
+        topBar = {SignUpTopAppBar(navController = navController)}
+    ) {innerPadding->
 
         Column(Modifier.padding(innerPadding)
             .padding(16.dp)
@@ -147,7 +150,9 @@ fun SignUpScreen(){
                 colors = ButtonDefaults.buttonColors(CoffeeBrown)){
 
                 Text(text = "Sign up",
-                    fontSize = 18.sp
+                    fontSize = 18.sp,
+                    color = Color.Black,
+                    fontWeight = FontWeight.SemiBold
                 )
             }
 
