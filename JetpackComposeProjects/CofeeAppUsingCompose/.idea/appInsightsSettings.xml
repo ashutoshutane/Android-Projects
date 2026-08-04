@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.definelab.cofeeappusingcompose" />
+                  <option name="mobileSdkAppId" value="1:61455085644:android:6dbeb103317ca894b004e9" />
+                  <option name="projectId" value="coffee-app-5156a" />
+                  <option name="projectNumber" value="61455085644" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
