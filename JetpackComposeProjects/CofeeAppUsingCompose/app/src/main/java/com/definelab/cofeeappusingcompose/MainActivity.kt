@@ -12,6 +12,7 @@ import com.definelab.cofeeappusingcompose.presentation.screen.loginScreen.LoginS
 import com.definelab.cofeeappusingcompose.presentation.screen.signUpScreen.SignUpScreen
 
 import com.definelab.cofeeappusingcompose.presentation.ui.theme.CofeeAppUsingComposeTheme
+import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,6 +33,18 @@ class MainActivity : ComponentActivity() {
 
             Log.d("Firebase",
                 FirebaseRepository.auth.toString())
+
+            FirebaseAuth.getInstance()
+                .createUserWithEmailAndPassword(
+                    "test123@gmail.com",
+                    "12345678"
+                )
+                .addOnSuccessListener {
+                    Log.d("FirebaseTest","Signup Success")
+                }
+                .addOnFailureListener {
+                    Log.e("FirebaseTest",it.message.toString())
+                }
         }
     }
 }

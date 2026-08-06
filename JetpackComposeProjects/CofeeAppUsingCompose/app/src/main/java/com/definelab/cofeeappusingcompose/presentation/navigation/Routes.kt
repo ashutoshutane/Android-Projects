@@ -18,7 +18,7 @@ sealed class Routes {
     }
 
     @Serializable
-    data class DetailScreen(val productId : Int) : Routes()
+    data class DetailScreen(val productId : String) : Routes()
 
     @Serializable
     object CartScreen: Routes()

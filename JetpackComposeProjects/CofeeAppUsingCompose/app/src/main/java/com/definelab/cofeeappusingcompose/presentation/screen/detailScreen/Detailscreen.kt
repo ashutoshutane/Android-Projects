@@ -14,7 +14,7 @@ import com.definelab.cofeeappusingcompose.model.Product
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
-fun DetailsScreen(productId: Int, navController: NavController) {
+fun DetailsScreen(productId: String, navController: NavController) {
 
 
     val productList = listOf<Product>(
