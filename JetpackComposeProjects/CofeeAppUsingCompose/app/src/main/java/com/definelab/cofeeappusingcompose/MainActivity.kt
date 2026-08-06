@@ -1,9 +1,11 @@
 package com.definelab.cofeeappusingcompose
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.definelab.cofeeappusingcompose.data.remote.FirebaseRepository
 import com.definelab.cofeeappusingcompose.presentation.navigation.NavGraph
 import com.definelab.cofeeappusingcompose.presentation.screen.favouriteScreen.FavouriteScreen
 import com.definelab.cofeeappusingcompose.presentation.screen.loginScreen.LoginScreen
@@ -27,6 +29,9 @@ class MainActivity : ComponentActivity() {
 //                DetailsScreen()
 //                SignUpScreen()
             }
+
+            Log.d("Firebase",
+                FirebaseRepository.auth.toString())
         }
     }
 }

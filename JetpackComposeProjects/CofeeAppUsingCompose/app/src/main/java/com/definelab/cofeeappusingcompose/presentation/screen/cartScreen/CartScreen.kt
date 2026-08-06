@@ -29,9 +29,9 @@ import com.definelab.cofeeappusingcompose.ui_components.BottomNavbar
 @Composable
 fun CartScreen(navController: NavController) {
     val cartProductList = listOf<Product>(
-        Product(1, "Espresso", "Rich, Thick and Strong Coffee", 5.0, R.drawable.coffee1),
-        Product(2, "Cappuccino", "Creamy Milk Foam with Espresso", 4.8, R.drawable.coffee2),
-        Product(3, "Latte", "Smooth Coffee with Steamed Milk", 4.7, R.drawable.coffee3),
+        Product("1", "Espresso", "Rich, Thick and Strong Coffee", 5.0, R.drawable.coffee1),
+        Product("2", "Cappuccino", "Creamy Milk Foam with Espresso", 4.8, R.drawable.coffee2),
+        Product("3", "Latte", "Smooth Coffee with Steamed Milk", 4.7, R.drawable.coffee3),
     )
 
     var amount by remember { mutableDoubleStateOf(12.50) }

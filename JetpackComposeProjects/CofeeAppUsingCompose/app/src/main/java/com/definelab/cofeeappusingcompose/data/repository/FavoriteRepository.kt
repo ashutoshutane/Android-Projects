@@ -1,12 +1,13 @@
 package com.definelab.cofeeappusingcompose.data.repository
 
+import com.definelab.cofeeappusingcompose.data.remote.FirebaseRepository
 import com.definelab.cofeeappusingcompose.model.Product
 import com.google.firebase.firestore.FirebaseFirestore
 
 
 class FavoriteRepository{
 
-    private val firestore = FirebaseFirestore.getInstance()
+    private val firestore = FirebaseRepository.firestore
     private val favoriteCollection = firestore.collection("favorites")
 
     fun addFavorite(

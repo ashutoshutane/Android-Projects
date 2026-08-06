@@ -1,10 +1,11 @@
 package com.definelab.cofeeappusingcompose.data.repository
 
+import com.definelab.cofeeappusingcompose.data.remote.FirebaseRepository
 import com.definelab.cofeeappusingcompose.model.User
 import com.google.firebase.firestore.FirebaseFirestore
 
 class UserRepository{
-    private val firestore = FirebaseFirestore.getInstance()
+    private val firestore = FirebaseRepository.firestore
     private val usersCollection  = firestore.collection("users")
 
     fun saveUser(

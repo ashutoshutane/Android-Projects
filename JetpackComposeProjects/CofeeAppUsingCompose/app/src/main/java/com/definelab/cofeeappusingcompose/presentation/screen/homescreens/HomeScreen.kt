@@ -62,16 +62,16 @@ fun HomeScreen(navController: NavController) {
 
 
             val productList = listOf<Product>(
-                Product(1,"Espresso","Rich, Thick and Strong Coffee",5.0,R.drawable.coffee1),
-                Product(2,"Cappuccino","Creamy Milk Foam with Espresso",4.8,R.drawable.coffee2),
-                Product(3,"Latte","Smooth Coffee with Steamed Milk",4.7,R.drawable.coffee3),
-                Product(4,"Americano","Bold Espresso Diluted with Water",4.6,R.drawable.coffee4),
-                Product(5,"Mocha","Chocolate Flavored Coffee Delight",4.9,R.drawable.coffee5),
-                Product(6,"Cold Brew","Slow Brewed and Refreshingly Cold",4.8,R.drawable.coffee6),
-                Product(7,"Macchiato","Espresso Topped with Milk Foam",4.7,R.drawable.coffee7),
-                Product(8,"Flat White","Velvety Microfoam and Espresso",4.5,R.drawable.coffee8),
-                Product(9,"Irish Coffee","Coffee with Creamy Sweet Flavor",4.6,R.drawable.coffee9),
-                Product(10,"Affogato","Vanilla Ice Cream with Espresso Shot",4.9,R.drawable.coffee10)
+                Product("1","Espresso","Rich, Thick and Strong Coffee",5.0,R.drawable.coffee1),
+                Product("2","Cappuccino","Creamy Milk Foam with Espresso",4.8,R.drawable.coffee2),
+                Product("3","Latte","Smooth Coffee with Steamed Milk",4.7,R.drawable.coffee3),
+                Product("4","Americano","Bold Espresso Diluted with Water",4.6,R.drawable.coffee4),
+                Product("5","Mocha","Chocolate Flavored Coffee Delight",4.9,R.drawable.coffee5),
+                Product("6","Cold Brew","Slow Brewed and Refreshingly Cold",4.8,R.drawable.coffee6),
+                Product("7","Macchiato","Espresso Topped with Milk Foam",4.7,R.drawable.coffee7),
+                Product("8","Flat White","Velvety Microfoam and Espresso",4.5,R.drawable.coffee8),
+                Product("9","Irish Coffee","Coffee with Creamy Sweet Flavor",4.6,R.drawable.coffee9),
+                Product("10","Affogato","Vanilla Ice Cream with Espresso Shot",4.9,R.drawable.coffee10)
 
             )
             
